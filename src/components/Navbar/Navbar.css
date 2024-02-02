@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&display=swap');
+
+.navbar__left >a>span{
+    color: black;
+    font-size: 22px;
+}
+.navbar__right>ul{
+    margin-right: 25px;
+    margin-top: 4px;
+}
+.navbar{
+    background-color:white;
+    margin-top: 10px;
+    border: 0;
+    position:sticky;
+	top:0;
+	z-index:999;
+}
+.navbar__left > a {
+    color: #19b119 !important;
+    font-size: 30px;
+    font-family: 'Alata', sans-serif;
+}
+.navbar__right >ul >li>a{
+    font-size: 25px;
+    font-family: Cantarell;
+    color: black !important;
+    letter-spacing: 1px;
+}
+.navbar__text>a:hover{
+    color: white !important;;
+    background-color: #19b119 !important;
+    border-radius: 6px;
+    letter-spacing: 2px;
+}
+.navbar__right>a>button{
+    background-color: #19b119;
+    border-radius: 7px;
+    border: 0;
+    color:white;
+    font-size: 15px;
+    padding: 5px 15px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: Cantarell;
+}
+.navbar__right>a>button:hover{
+    background-color:white;
+    color: #19b119;
+    border: 1px solid;
+}

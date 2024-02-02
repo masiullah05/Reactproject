@@ -1,0 +1,15 @@
+.a
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 50px;
+    margin-top:3em;
+}
+.b{
+    text-align: center;
+    font-size: 35px;
+    color:black;
+    font-family: 'Lucida', serif;
+    margin-top: 1em;
+}

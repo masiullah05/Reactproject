@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+.imgdown>p{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 4em;
+    color: #937c6f;
+}
+.imgdown>h2{
+    font-size: 35px;
+    text-align: center;
+    color: #2f2f2f;
+    font-family: 'Lucida', serif;
+    margin-top: -2px;
+}
+.img__slide{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-top:3em;
+    justify-content: center;
+}
+.blogs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    gap:50px;
+    margin-top: 3em;
+}
+.blogs_text>h2{
+    color:#19b119;
+    font-size:40px;
+    font-weight: 700;
+    text-align:center;
+}
+.blogs_text>h2>span{
+    color: black;
+    font-size:25px;
+}
+.blogs_text>p{
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 22px;
+}
+.blogs_text>h3{
+    color: red;
+    font-size: 30px;
+    text-align: center;
+}
+.ab
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 50px;
+    margin-top:4em;
+}
+
+@media(max-width:500px) {
+  .blogs1>img{
+    width: 450px;
+  }
+}
+.container-fluid>h5{
+    color:#c94141;
+    text-align: center;  
+    margin-top: 7em;
+}
+.new_trend{
+    font-size: 35px;
+    font-weight: 400;
+    font-family:'Lucida', serif;
+    text-align: center;
+}
+.sales{
+    color: rgb(17, 16, 16);
+    font-size: 35px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-family: Prata;
+    margin-top:4em;
+}
